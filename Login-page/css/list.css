@@ -1,0 +1,50 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h1{
+  text-align: center;
+}
+
+*{
+    font-weight: bold;
+    font-family: poppins;
+}
+
+  ol {
+    list-style: upper-roman;
+}
+
+
+li {
+  margin: 0.25rem;
+  width: 10rem;
+}
+
+  .ol-style {
+    position: absolute; 
+    left: 30%; 
+    top: 10%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 50rem;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.473);
+    cursor: pointer;
+}
+
+/* pseudos classes */
+.ol-style td:hover{
+    background-color: orange;
+}
+.ol-style:hover{
+    background-color: orange;
+    color: red;
+}
+.ol-style{
+    background-color: #6d75b8;
+    color: #ffffff;
+    text-align: left;
+}
+.ol-style li:hover{ 
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
